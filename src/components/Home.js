@@ -119,7 +119,10 @@ const Home = ({ home, provider, account, escrow, togglePop }) => {
         <div className="home">
             <div className='home__details'>
                 <div className="home__image">
-                    <img src={home.image} alt="Home" />
+                    <img src={home.image} 
+                    height={400}
+                    width={400}
+                    alt="Home" />
                 </div>
                 <div className="home__overview">
                     <h1>{home.name}</h1>
